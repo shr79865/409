@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-between bg-[#b0caf5b7] px-[80px] py-[20px] shadow-b-xl">
+    <div class="flex justify-between bg-[#eeeeee] px-[80px] py-[20px] shadow-b-xl">
 
         <div class="flex gap-5 items-center">
             <img class="rounded-full" src="../public/410_logo_img.webp" alt="logo" width="30">
@@ -19,18 +19,18 @@
 
 
 
-        <div class="flex gap-[40px] font-semibold text-[18px] items-center">
+        <div class="flex gap-[40px] font-semibold text-[18px] text-[#000000] items-center">
             <nuxt-link
-                class="text-[#354fc2] duration-300 hover:shadow-2xl hover:text-[#ffffff] hover:bg-gradient-to-r from-sky-500 to-indigo-500 hover:rounded-full hover:px-[15px] hover:py-[5px]"
+                class="duration-300 hover:shadow-2xl hover:text-[#ffffff] hover:bg-gradient-to-r from-sky-500 to-indigo-500 hover:rounded-full hover:px-[15px] hover:py-[5px]"
                 to="/">HOME</nuxt-link>
             <nuxt-link
-                class="text-[#354fc2] duration-300 hover:shadow-2xl hover:text-[#ffffff] hover:bg-gradient-to-r from-sky-500 to-indigo-500 hover:rounded-full hover:px-[15px] hover:py-[5px]"
+                class="duration-300 hover:shadow-2xl hover:text-[#ffffff] hover:bg-gradient-to-r from-sky-500 to-indigo-500 hover:rounded-full hover:px-[15px] hover:py-[5px]"
                 to="/connect">CONNECT</nuxt-link>
             <nuxt-link
-                class="text-[#354fc2] duration-300 hover:shadow-2xl hover:text-[#ffffff] hover:bg-gradient-to-r from-sky-500 to-indigo-500 hover:rounded-full hover:px-[15px] hover:py-[5px]"
+                class=" duration-300 hover:shadow-2xl hover:text-[#ffffff] hover:bg-gradient-to-r from-sky-500 to-indigo-500 hover:rounded-full hover:px-[15px] hover:py-[5px]"
                 to="/about">ABOUT</nuxt-link>
             <nuxt-link
-                class="text-[#354fc2] duration-300 hover:shadow-2xl hover:text-[#ffffff] hover:bg-gradient-to-r from-sky-500 to-indigo-500 hover:rounded-full hover:px-[15px] hover:py-[5px]"
+                class="duration-300 hover:shadow-2xl hover:text-[#ffffff] hover:bg-gradient-to-r from-sky-500 to-indigo-500 hover:rounded-full hover:px-[15px] hover:py-[5px]"
                 to="/contact">CONTACT</nuxt-link>
         </div>
 

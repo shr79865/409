@@ -1,11 +1,13 @@
 <template>
 
+    <!-- HERO SECTION START -->
+
     <div
-        class="flex pr-[110px] gap-7 justify-between items-center h-[660px] bg-gradient-to-r from-sky-500 to-indigo-500">
+        class="flex pr-[110px] gap-7 justify-between items-center h-[660px] bg-gradient-to-b from-sky-600 to-[#8ac8ee]">
 
         <!-- welcome section start -->
         <div
-            class="flex flex-col justify-center items-center border-r-2 border-y-2 border-[#ffffffb2] h-[550px] rounded-r-full pl-[90px] pr-[150px]">
+            class="flex flex-col justify-center items-center border-r-8 border-y-8 border-[#ffffffb2] h-[550px] rounded-r-full pl-[90px] pr-[180px]">
 
             <h1 class="text-[#ffffff] font-bold text-[50px]">WELCOME TO <span
                     class="text-[#91ffeb] text-[65px]">GrowX</span></h1>
@@ -29,14 +31,27 @@
 
 
         <!-- share section start -->
-        <div>
+        <div class="flex flex-col justify-center items-center pr-[70px]">
 
-            <h1>Share Your Idea</h1>
+            <h1 class="text-[50px] font-semibold text-[#ffffff]">Share Your Ideas</h1>
+
+            <div
+                class="relative flex items-center shadow-xl hover:shadow-2xl hover:scale-[1.1] rounded-full duration-300">
+                <input type="text" placeholder="Let us Know ..."
+                    class="w-[430px] px-[30px] py-[20px] rounded-full focus:outline-none">
+                <button
+                    class="absolute top-[7px] right-[7px] bg-[#4498e7] font-semibold shadow-xl hover:shadow-2xl text-[17px] duration-300 text-[#ffffff] px-[20px] py-[12px] rounded-full">SEND</button>
+            </div>
 
         </div>
         <!-- share section end -->
 
     </div>
+
+    <!-- HERO SECTION END -->
+
+
+    
 
 </template>
 
